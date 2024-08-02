@@ -1,0 +1,37 @@
+[
+  {
+    "simulation_time": 100,
+    "scheduler_name": "fcfs",
+    "tasks_number": 3,
+    "tasks": [
+      {
+        "id_task": 1,
+        "offset": 0,
+        "computation_time": 10,
+        "period_time": 20,
+        "quantum": 0,
+        "deadline": 0
+      },
+      {
+        "id_task": 2,
+        "offset": 5,
+        "computation_time": 15,
+        "period_time": 25,
+        "quantum": 0,
+        "deadline": 0
+      },
+      {
+        "id_task": 3,
+        "offset": 10,
+        "computation_time": 20,
+        "period_time": 30,
+        "quantum": 0,
+        "deadline": 0
+      }
+    ]
+  }
+]
+
+
+
+  

@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from typing import List
 
 @dataclass
-class TaskDTO:
+class Task:
     id_task: int = 0
     offset: int = 0
     computation_time: int = 0
@@ -11,8 +11,9 @@ class TaskDTO:
     deadline: int = 0
 
 @dataclass
-class JsonParce:
+class ScheduleConfig:
     simulation_time: int = 0
     scheduler_name: str = ""
     tasks_number: int = 0
-    tasks: List[TaskDTO] = field(default_factory=list)
+    tasks: List[Task] = field(default_factory=list)
+
